@@ -7,15 +7,16 @@ button {
   width: 100%;
 
   border: 0;
-  background: var(--background-button);
+  background: transparent;
   padding: 1.1875rem 2rem;
   border-radius: 0.25rem;
 
   font-size: 1.125rem;
   color: var(--white);
+  border: .025rem solid var(--blue-primary);
 
   &:hover {
-    background: var(--background-button2);
+    background: var(--blue-primary);
   }
 
   transition: background 200ms;
@@ -29,7 +30,7 @@ button {
   }
 
   &.selected {
-    background: var(--background-button2);
-    color: var(--yellow);
+    background: var(--blue);
+    color: var(--white);
   }
 }

@@ -6,6 +6,11 @@
   --yellow: #FAE800;
   --gray: #BEC2C6;
   --white: #FBFBFB;
+
+  --blue-primary: #040e46;
+  --blue-secondary: #030a2c;
+  --blue: #00f;
+  --red: #FF4040;
 }
 
 * {
@@ -17,7 +22,7 @@
 body {
   font: 16px "Poppins", Arial, sans-serif;
   color: #FBFBFB;
-  background: var(--background);
+  background: var(--blue-primary);
 }
 
 input, textarea {
